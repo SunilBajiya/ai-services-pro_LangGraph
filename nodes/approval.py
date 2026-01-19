@@ -3,14 +3,6 @@ def approval_node(state):
         state['approved'] = True
     else:
         state['approved'] = False
+    return state
 
 
-
-
-# state['data'] ={
-#     "customer_id":"c123",
-#     "amount": 50000,
-#     "status": "PENDING"
-#     "validation": True
-#     "approved": True
-# }

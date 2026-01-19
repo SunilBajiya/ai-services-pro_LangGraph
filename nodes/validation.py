@@ -6,12 +6,7 @@ def validation_node(state):
 
     else:
         state['validated'] = False
+    return state
 
 
 
-# state['data'] ={
-#     "customer_id":"c123",
-#     "amount": 50000,  
-#     "status": "PENDING"
-#     "validation": True
-# }
